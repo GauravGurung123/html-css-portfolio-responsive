@@ -1,0 +1,179 @@
+@media (max-width:1600px) {
+    .about{
+        max-width: 72rem;
+    }
+    .skill{
+        max-width: 72rem;
+    }
+    
+}
+@media (max-width:1480px) {
+    .about{
+        max-width: 62rem;
+    }
+    .skill{
+        max-width: 62rem;
+    }
+    .heading-primary{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 3.5px;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+    }
+    .primary-description{
+        font-size: 0.8rem;
+    }
+    .btn:link{
+        display: inline-block;
+        font-size: 0.8rem;
+        padding: 0.8rem 1.8rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        transition: all 1s;
+    }
+    .card-title{
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .card-description{
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1;
+        margin-bottom: 2rem;    
+        text-align: justify;
+    }
+}
+
+@media (max-width:860px) {
+    .about{
+        max-width: 42rem;
+        gap: 2rem;
+        margin-top: 8rem;
+    }
+    .heading-primary{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 3.5px;
+        letter-spacing: 0.6px;
+        text-transform: uppercase;
+    }
+    .primary-description{
+        font-size: 0.8rem;
+    }
+    .btn:link{
+        display: inline-block;
+        font-size: 0.6rem;
+        padding: 0.6rem 1.4rem;
+        border-radius: 2rem;
+        text-decoration: none;
+        transition: all 1s;
+    }
+    .about-img-box{
+        max-width: 20rem;
+        height: 130% !important;
+    }
+    .about-img{
+        width: 100%;
+        height: 50% !important;
+    }
+    .skill{
+        max-width: 42rem;
+        grid-template-columns: 1fr 1fr;
+
+    }
+    .card-title{
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .card-description{
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 2rem;    
+        text-align: justify;
+    }
+    .footer-heading{
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width:550px) {
+    .about{   
+        display: flex;
+        flex-direction: column;
+        padding: 8rem;
+    }
+    .btn:link{
+        display: inline-block;
+        font-size: 0.6rem;
+        padding: 0.5rem 1.3rem;
+        border-radius: 1rem;
+    }
+    .skill{
+        max-width: 32rem;
+        padding: 2rem;
+        grid-template-columns: 1fr;
+    }
+    .card-title{
+        font-size: 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .card-description{
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 2rem;    
+        text-align: justify;
+    }
+    .footer-heading{
+        font-size: 1.2rem;
+    }
+
+    .nav-link:link{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .navbar-logo{
+       height: 16%;
+       width: 20%;
+       margin-left: -50px;
+    }
+    .navbar-menu{
+        gap: 1rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+        word-spacing: 1px;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    h2:after {
+        display: block;
+        height: 2px;
+        width: 6rem;
+        margin-top: 1rem;
+    }
+
+
+    .form-mb-lg {
+        margin-bottom: 1.6rem;
+    }
+
+    .form-label {
+        font-size: 1.2rem;
+        margin-bottom: 0.8rem;
+    }
+    .form-input {
+        font-size: 1.1rem;
+    }
+    .formbold-btn {
+        font-size: 1.1rem;
+    }
+}

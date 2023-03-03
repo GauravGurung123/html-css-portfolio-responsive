@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #555;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    /* background-color: #f5e6e3; */
+    background-color: #fff;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-scrolled {
+    background: linear-gradient(90deg, rgba(255,240,237,1) 100%, rgba(55,128,240,1) 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-primary{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 4rem;
+    padding-top: 1rem;
+}
+
+.navbar-logo{
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 0.8rem;
+    list-style: none;
+}
+
+.navbar-menu-list{
+    padding: 6px;
+    color: #333;
+}
+
+.nav-link:link{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #333 !important;
+    transition: all 0.3s;
+}
+.nav-link:visited{
+    color: #333 !important;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: #ee8e39 !important;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 82rem;   
+    margin: 0 auto;
+    gap: 9rem;
+    align-items: center;
+}
+.about-img-box{
+    max-width: 40rem;
+    height: 100% !important;
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+}
+.about-img{
+    width: 100%;
+    height: 50% !important;
+}
+
+.heading-primary{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.primary-description{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+    text-align: justify;
+}
+.btn:link{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+.btn-solid:link {
+    background-color: #ee8e39;
+    color: #fff;
+}
+.btn-solid:visited {
+    background-color: #ee8e39;
+    color: #fff;
+}
+.btn-solid:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+.btn-outline:link {
+    background-color: #fff;
+    color: #ee8e39;
+}
+.btn-outline:hover {
+    background-color: #f5e6e3;
+    color: #ee8e39;
+
+    /* border: 3px solid #555; */
+    box-shadow: inset 0 0 0 3px #ee8e39;
+}
+.mr-right-sm{
+    margin-right: 4px !important;
+}
+.mb-sm{
+    margin-bottom: 2rem!important;
+}
+.mb-md{
+    margin-bottom: 4rem!important;
+}
+.section-skill{
+    background-color: rgb(235, 230, 226);
+    padding: 8rem;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 82rem;
+    margin: 0 auto;
+    gap: 1rem;
+    align-items: center;
+}
+.card{
+    /* background-color: #f5e6e3; */
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding: 1rem;
+    /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.507); */
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: all 0.3s;
+    position: relative;
+}
+.card:hover {
+    transform: translateY(-0.4rem);
+  }
+.card-title{
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.card-description{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 3rem;    
+    text-align: justify;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(255,240,237,1) 100%, rgba(55,128,240,1) 100%);
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    margin: 2.5rem;
+}
+.footer-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-address{
+    font-size: 1.2rem;
+    color: #767676;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+.footer-heading{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.footer-link:link{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #767676;
+}
+.footer-link:visited{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #767676;
+}
+.section-copyright{
+    /* display: grid;
+    place-content: center; */
+    display: flex;
+    place-content: center;
+}
+.copyright-title{
+    font-size: 1.2rem;
+}
+
+.navbar-menu-list.active .nav-link {
+    color: #ff0000!important; /* Change this to the desired color */
+  }
+
+h2 {
+    font-size: 2rem;
+    word-spacing: 2px;
+    text-align: center;
+    margin: 3rem 0;
+    letter-spacing: 1px;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fd9644;
+    content: " ";
+    width: 8rem;
+    margin:0 auto;
+    margin-top: 2rem;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc
+}
+
+textarea {
+    height: 8rem;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;    
+}
+
+.form-mb-lg {
+    margin-bottom: 1.8rem;
+}
+
+.form-label {
+    display: block;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #07074d;
+    margin-bottom: 0.9rem;
+}
+.form-input {
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #6b7280;
+    outline: none;
+    resize: none;
+}
+.form-input:focus {
+    border-color: #6a64f1;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.formbold-btn {
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 6px;
+    padding: 1.2rem 2.2rem;
+    border: none;
+    font-weight: 600;
+    background-color: #e67e22;
+    color: #fff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
